@@ -111,18 +111,18 @@
 // todo Додати їй клас current і атрибут aria-current="page".
 // todo Якщо всередині є посилання — прибрати в нього атрибут href.
 
-const refs = {
-  nav: document.querySelector(".breadcrumbs"),
-};
+// const refs = {
+//   nav: document.querySelector(".breadcrumbs"),
+// };
 
-const lastChild = refs.nav.lastElementChild;
+// const lastChild = refs.nav.lastElementChild;
 
-console.log(lastChild);
+// console.log(lastChild);
 
-lastChild.classList.add("current");
-lastChild.ariaCurrent = "page";
+// lastChild.classList.add("current");
+// lastChild.ariaCurrent = "page";
 
-const linkEl = lastChild.querySelector("a");
-if (linkEl) {
-  linkEl.removeAttribute("href");
-}
+// const linkEl = lastChild.querySelector("a");
+// if (linkEl) {
+//   linkEl.removeAttribute("href");
+// }
